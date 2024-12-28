@@ -395,7 +395,7 @@ footer {
 /* ------------Dialog---------------- */
 .icon-container{
     position: relative;
-    /* display: inline-block; */
+    display: inline-block;
 }
 .dialog{
     position: absolute;
@@ -403,10 +403,11 @@ footer {
     border: 1px solid white;
     width: 300px;
     visibility: hidden;
+    transition: all .2s linear .01s;
 }
 
 .icon-container:hover .dialog{
-    visibility: visible;
+   visibility: visible;
 }
 
 
