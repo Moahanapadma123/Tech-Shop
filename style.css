@@ -41,6 +41,7 @@ body {
 .lis:hover{
     background-color: red;
     width: 80px;
+    
  
 }
 .btn{
@@ -48,7 +49,7 @@ body {
     height: 35px;
     margin: 10px;
 }
-.btn:hover{
+.btn{
     background-color: red;
 
 }
@@ -279,14 +280,20 @@ footer {
 }
 #productdetails{
     margin-right: 72px;
+   
 
 }
 #product{
     display:flex;
     gap: 20%;
     justify-content: center;
+
     
     
+}
+#product :hover{
+    background-color: red;
+
 }
 #productimgs11{
     margin-right: 262px;
@@ -304,7 +311,8 @@ footer {
     
     display: flex; 
      gap: 90px;
-     margin:0px;
+     margin:2px;
+     margin-top: 40px;
 }
 #RelatedPr{
     text-align: center;
